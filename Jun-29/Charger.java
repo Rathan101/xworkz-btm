@@ -6,11 +6,10 @@ class Charger
 	String fit="deepends on type";
 	
 	Charger() {
-		System.out.println("the charger");
+		System.out.println("the charger is running");
 	}
 	public static void main(String[] args)
 	{
-		System.out.println("Running charger");
 		Charger charger=new Charger();
 		System.out.println("The charger type is :" +charger.type);
 		System.out.println("The cost of charger is :" +charger.cost);
